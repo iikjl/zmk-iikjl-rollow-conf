@@ -1,0 +1,59 @@
+/ {
+    behaviors {
+        hm_apos: homerow_apos {
+        compatible = "zmk,behavior-hold-tap";
+        label = "HOMEROW_ASEMI";
+        #binding-cells = <2>;
+        tapping-term-ms = <220>;
+        quick-tap-ms = <0>;
+        flavor = "tap-preferred";
+        global-quick-tap;
+        bindings = <&kp>, <&kp>;
+        };
+
+        hm_sl: homerow_sl {
+        compatible = "zmk,behavior-hold-tap";
+        label = "HOMEROW_SL";
+        #binding-cells = <2>;
+        tapping-term-ms = <220>;
+        quick-tap-ms = <0>;
+        flavor = "tap-preferred";
+        global-quick-tap;
+        bindings = <&kp>, <&kp>;
+        };
+
+        hm_dk: homerow_dk {
+        compatible = "zmk,behavior-hold-tap";
+        label = "HOMEROW_DK";
+        #binding-cells = <2>;
+        tapping-term-ms = <170>;
+        quick-tap-ms = <0>;
+        flavor = "tap-preferred";
+        global-quick-tap;
+        bindings = <&kp>, <&kp>;
+        };
+
+        hm_fj: homerow_fj {
+        compatible = "zmk,behavior-hold-tap";
+        label = "HOMEROW_FJ";
+        #binding-cells = <2>;
+        tapping-term-ms = <150>;
+        quick-tap-ms = <0>;
+        flavor = "tap-preferred";
+        global-quick-tap;
+        bindings = <&kp>, <&kp>;
+        };
+
+        th_ht: th_ht {
+        compatible = "zmk,behavior-hold-tap";
+        label = "TH_HT";
+        #binding-cells = <2>;
+        tapping-term-ms = <150>;
+        quick-tap-ms = <0>;
+        flavor = "tap-preferred";
+        global-quick-tap;
+        bindings = <&mo>, <&kp>;
+        };
+
+    };
+};
